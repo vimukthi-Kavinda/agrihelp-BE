@@ -825,7 +825,7 @@ public class FarmerController {
                                                      @RequestBody(required = false) Object requestBody,
                                                      @RequestParam(defaultValue = "0") int page,
                                                      @RequestParam(defaultValue = "10") int size,
-                                                     @RequestParam(defaultValue = "postedtime,desc") String[] sort,
+                                                     @RequestParam(defaultValue = "postedtime, desc") String[] sort,
                                                      @RequestParam(defaultValue = "false") boolean search) throws Exception {
         ResponseBean responseBean = null;
         ResponseEntity<?> responseEntity;
